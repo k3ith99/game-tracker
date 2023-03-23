@@ -5,7 +5,7 @@ const router = express.Router()
 
 let completedGames = [{id:1,name:"Assassin`s Creed Origins"}];
 //list of completed games
-router.get('/completed_games', (req,res)=> {
+router.get('ompleted_games', (req,res)=> {
     console.log(completedGames)
     res.send(completedGames)
 })
